@@ -1,6 +1,14 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import localFont from 'next/font/local'
+
+
+const Bahnschrift = localFont({
+  src: "../public/fonts/bahnschrift.ttf",
+});
+
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={Bahnschrift.className}>{children}</body>
     </html>
   );
 }
