@@ -88,16 +88,7 @@ const Media = () => {
                   Spotify
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="https://www.youtube.com/playlist?list=PL4A-P6Ov1Tu35O0cLw1GrPniRxqLLK1oE"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-black hover:text-blue-600 transition-colors underline"
-                >
-                  Youtube
-                </Link>
-              </li>
+             
             </ul>
           </li>
           <li>
