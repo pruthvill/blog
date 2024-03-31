@@ -1,19 +1,4 @@
 import Link from "next/link";
-import localFont from '@next/font/local'
-import { IBM_Plex_Mono
-
-
-} from "next/font/google";
-
-
-const chaney = localFont({
-  src: "../../public/fonts/chaney.ttf",
-});
-const scp = IBM_Plex_Mono({
-  subsets: ["latin"],
-  weight: "600"
-});
-
 
 
 const Header = () => {
