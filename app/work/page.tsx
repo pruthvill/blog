@@ -13,7 +13,7 @@ const Work = () => {
             <ul className="list-disc list-inside">
               <li>
                 <Link
-                  href="Work\\Mark2.html"
+                  href="https://www.figma.com/file/7wcm8knluIM36PKYTUHzx6/Pruthvil---Portfolio?type=design&node-id=21-2265&mode=design"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-black hover:text-blue-600 transition-colors underline"
@@ -23,7 +23,7 @@ const Work = () => {
               </li>
               <li>
                 <Link
-                  href="Work\\Mark2.html"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-black hover:text-blue-600 transition-colors underline"
