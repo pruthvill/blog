@@ -31,7 +31,7 @@ const Writings = () => {
             <li key={index}>
               <div className="flex items-center ">
                 <span className="text-black   font-bold text-base mr-2">&#8226;</span>
-                <Link href={href} className="text-black hover:text-blue-600 transition-colors underline">
+                <Link href={href} className="text-black hover:text-[#0000FF] transition-colors underline">
                   {title}
                 </Link>
               </div>

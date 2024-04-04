@@ -16,7 +16,7 @@ const Media = () => {
                   href="https://www.youtube.com/playlist?list=PL4A-P6Ov1Tu36Iq3c3aT6ocPuQ8I3JyPh"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black hover:text-blue-600 transition-colors underline"
+                  className="text-black hover:text-[#0000FF] transition-colors underline"
                 >
                   Primereh
                 </Link>
@@ -31,7 +31,7 @@ const Media = () => {
                   href="https://goodreads.com/pruthvil"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black hover:text-blue-600 transition-colors underline"
+                  className="text-black hover:text-[#0000FF] transition-colors underline"
                 >
                   Goodreads
                 </Link>
@@ -83,7 +83,7 @@ const Media = () => {
                   href="https://open.spotify.com/user/2z8vz76kx7mgxy6q2cfwia45f"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black hover:text-blue-600 transition-colors underline"
+                  className="text-black hover:text-[#0000FF] transition-colors underline"
                 >
                   Spotify
                 </Link>
@@ -111,6 +111,12 @@ const Media = () => {
               <li>Founders</li>
             </ul>
           </li>
+          <h3 className="text-base font-bold mb-2">Podcasts</h3>
+          <ul>
+            <li>Decison Making</li>
+            <li>Performance Enhacement</li>
+            <li>Box Breathing</li>
+          </ul>
         </ul>
       </div>
     </div>

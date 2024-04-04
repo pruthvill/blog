@@ -16,7 +16,7 @@ const Work = () => {
                   href="https://www.figma.com/file/7wcm8knluIM36PKYTUHzx6/Pruthvil---Portfolio?type=design&node-id=21-2265&mode=design"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black hover:text-blue-600 transition-colors underline"
+                  className="text-black hover:text-[#0000FF]  transition-colors underline"
                 >
                   Portfolio
                 </Link>
@@ -34,7 +34,7 @@ const Work = () => {
                   href="https://pruthvil.substack.com?utm_source=navbar&utm_medium=web&r=nuc5z"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black hover:text-blue-600 transition-colors underline"
+                  className="text-black hover:text-[#0000FF]  transition-colors underline"
                 >
                   Substack
                 </Link>
@@ -44,7 +44,7 @@ const Work = () => {
                   href="https://www.instagram.com/pruthvill/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black hover:text-blue-600 transition-colors underline"
+                  className="text-black hover:text-[#0000FF]  transition-colors underline"
                 >
                   Insta
                 </Link>
@@ -54,7 +54,7 @@ const Work = () => {
                   href="https://www.youtube.com/@pruthvil"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black hover:text-blue-600 transition-colors underline"
+                  className="text-black hover:text-[#0000FF] transition-colors underline"
                 >
                   Youtube
                 </Link>
@@ -64,7 +64,7 @@ const Work = () => {
                   href="https://podcasters.spotify.com/pod/show/ruthveda"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black hover:text-blue-600 transition-colors underline"
+                  className="text-black hover:text-[#0000FF]  transition-colors underline"
                 >
                   Podcast
                 </Link>
@@ -79,7 +79,7 @@ const Work = () => {
                   href="https://github.com/pruthvill/Mark3"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-black hover:text-blue-600 transition-colors underline"
+                  className="text-black hover:text-[#0000FF] transition-colors underline"
                 >
                   Mark2
                 </Link>
