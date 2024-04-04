@@ -18,19 +18,10 @@ const Work = () => {
                   rel="noopener noreferrer"
                   className="text-black hover:text-blue-600 transition-colors underline"
                 >
-                  Mark2
+                  Portfolio
                 </Link>
               </li>
-              <li>
-                <Link
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-black hover:text-blue-600 transition-colors underline"
-                >
-                  Thesis
-                </Link>
-              </li>
+           
               {/* <li><Link href="DeepDives\\.html">CourseMax</Link></li> */}
               {/* <li><Link href="DeepDives\\.html">Parley</Link></li> */}
             </ul>
