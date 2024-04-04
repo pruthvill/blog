@@ -9,6 +9,8 @@ export default function Home() {
       <div className=" text-center text-lg font-bold">
         <Link
           href="https://twitter.com/pruthvill"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-black hover:text-[#0000FF] transition-colors "
         >
           <h1>Worldsmith</h1>
