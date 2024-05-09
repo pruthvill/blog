@@ -12,29 +12,25 @@ const Writings = () => {
     { title: "What it means for a day to pass.", href: "/writings/posts/day" },
     { title: "Environmental Design.", href: "/writings/posts/env-design" },
     { title: "What are you optimizing for?", href: "/writings/posts/optimizing" },
-    { title: "On epiphanies.", href: "/writings/posts/epiphanies" },
     { title: "Questions I like to think about.", href: "/writings/posts/questions" },
     { title: "Get drowned in stories, experiences and people.", href: "/writings/posts/drowned" },
     { title: "Experiments Ep-1: No electricity.", href: "/writings/posts/eep1" },
     { title: "Solitude, Reflection and losing yourself.", href: "/writings/posts/srl" },
     { title: "Don't play lost games.", href: "/writings/posts/games" },
-    { title: "On Advices", href: "/writings/posts/advices" },
   ];
 
   return (
     <div className="pruthvil">
       <Header />
-      <div className="text-center text-lg font-bold mb-2 ">Writings</div>
-      <div className="flex flex-col max-w-60 mx-auto ">
-        <ul className="flex flex-col gap-4 ">
+      <div className="text-center  font-bold mb-2" style={{ fontSize: '16px' }}>Writings</div>
+      <div className="flex flex-col max-w-[220px] mx-auto" style={{ fontSize: '14px' }}>
+        <ul className="flex flex-col gap-4">
           {writingItems.map(({ title, href }, index) => (
-            <li key={index}>
-              <div className="flex items-center ">
-                <span className="text-black   font-bold text-base mr-2">&#8226;</span>
-                <Link href={href} className="text-black hover:text-[#0000FF] transition-colors underline">
-                  {title}
-                </Link>
-              </div>
+            <li key={index} className="flex">
+              <span className="text-black font-bold text-base mr-2 flex-shrink-0">&#8226;</span>
+              <Link href={href} className="text-black hover:text-[#0000FF] transition-colors">
+                {title}
+              </Link>
             </li>
           ))}
         </ul>

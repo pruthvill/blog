@@ -11,9 +11,9 @@ export default function Home() {
           href="https://twitter.com/pruthvill"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-black hover:text-[#0000FF] transition-colors "
+          className=" text-white hover:text-[#0000FF] transition-colors    font-bold "style={{ fontSize: '16px' }}
         >
-          <h1>Worldsmith</h1>
+          Worldsmith
         </Link>
       </div>
     </div>

@@ -5,11 +5,11 @@ const Work = () => {
   return (
     <div className="pruthvil">
       <Header />
-      <div className="text-center text-lg font-bold mb-2">Work</div>
-      <div className="flex flex-col max-w-60 mx-auto">
+      <div className="text-center text-lg font-bold mb-2"  style={{ fontSize: '16px' }}>Work</div>
+      <div className="flex flex-col max-w-[220px] mx-auto"  style={{ fontSize: '14px' }}>
         <ul className="flex flex-col gap-4">
           <li>
-            <div className=" text-base font-bold mb-2">Design</div>
+            <div className="  font-bold mb-2">Design</div>
             <ul className="list-disc list-inside">
               <li>
                 <Link
@@ -27,7 +27,7 @@ const Work = () => {
             </ul>
           </li>
           <li>
-            <div className=" text-base font-bold mb-2">Content</div>
+            <div className="  font-bold mb-2">Content</div>
             <ul className="list-disc list-inside">
               <li>
                 <Link
@@ -72,7 +72,7 @@ const Work = () => {
             </ul>
           </li>
           <li>
-            <div className=" text-base font-bold mb-2">Software</div>
+            <div className="  font-bold mb-2">Software</div>
             <ul className="list-disc list-inside">
               <li>
                 <Link

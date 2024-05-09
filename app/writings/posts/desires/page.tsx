@@ -24,7 +24,6 @@ const Media = () => {
               So Find your true desires.
 
 
-              The World will ask you who you are and if you dont know the world will tell you.
 
               Humans reproduce two ways ,biologically using genes and culturally using memes(darwininan memes).
               In biological reproduction we dont have the choice of what genes we want.You can't choose your gender ,color of your skin and other things
@@ -38,14 +37,10 @@ const Media = () => {
 
 
               If you obeserve your day to day actions most if not all of your actions are the result of the memes from society.
-              
-
-              
-
+              The World will ask you who you are and if you dont know the world will tell you.
 
 
               If you dont have desires of your own the societies desires will become your desires.
-
 
               How to find what you truly desire.
               You cant want to hang out with dinosuars that sounds impossible but who knows.
@@ -55,8 +50,7 @@ const Media = () => {
 
 
               You cant compete with someone who is having fun.
-
-              On
+              Thinking for yourself.
 
               Insight based and Iteration based.
 

@@ -5,11 +5,11 @@ const Media = () => {
   return (
     <div className="pruthvil">
       <Header />
-      <div className="text-center text-lg font-bold mb-2">Media</div>
-      <div className="flex flex-col  max-w-60 mx-auto ">
+      <div className="text-center  font-bold mb-2" style={{ fontSize: '16px' }}>Media</div>
+      <div className="flex flex-col   max-w-[220px]  mx-auto " style={{ fontSize: '14px' }}>
         <ul className="flex flex-col gap-4">
           <li>
-            <h3 className="text-base font-bold mb-2 ">Youtube</h3>
+            <h3 className="text-base font-bold mb-2 " style={{ fontSize: '14px' }}>Youtube</h3>
             <ul className="list-disc list-inside">
               <li>
                 <Link
@@ -24,7 +24,7 @@ const Media = () => {
             </ul>
           </li>
           <li>
-            <h3 className="text-base font-bold mb-2">Books</h3>
+            <h3 className="text-base font-bold mb-2" style={{ fontSize: '14px' }}>Books</h3>
             <ul className="list-disc list-inside">
               <li>
                 <Link
@@ -38,45 +38,9 @@ const Media = () => {
               </li>
             </ul>
           </li>
+          
           <li>
-            <h3 className="text-base font-bold mb-2">Libraries</h3>
-            <ul className="list-disc list-inside">
-              <li>
-                <Link
-                  href="/libraries/bret"
-                  className="text-black hover:underline"
-                >
-                  Bret Victor
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/libraries/patrick"
-                  className="text-black hover:underline"
-                >
-                  Patrck Collison
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/libraries/a16z"
-                  className="text-black hover:underline"
-                >
-                  A16Z
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/libraries/wolfram"
-                  className="text-black hover:underline"
-                >
-                  Stephen Wolfram
-                </Link>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <h3 className="text-base font-bold mb-2">Music</h3>
+            <h3 className="text-base font-bold mb-2" style={{ fontSize: '14px' }}>Music</h3>
             <ul className="list-disc list-inside ">
               <li>
                 <Link
@@ -92,7 +56,7 @@ const Media = () => {
             </ul>
           </li>
           <li>
-            <h3 className="text-base font-bold mb-2">Podcasts</h3>
+            <h3 className="text-base font-bold mb-2" style={{ fontSize: '14px' }}>Podcasts</h3>
             <ul className="list-disc list-inside">
               <li>Tim Ferris Show</li>
               <li>The Portal</li>
@@ -111,12 +75,14 @@ const Media = () => {
               <li>Founders</li>
             </ul>
           </li>
-          <h3 className="text-base font-bold mb-2">Podcasts</h3>
-          <ul>
+          <li>
+            <h3 className="text-base font-bold mb-2" style={{ fontSize: '14px' }}>Performance Enhacement</h3>
+            <ul className="list-disc list-inside">
             <li>Decison Making</li>
-            <li>Performance Enhacement</li>
             <li>Box Breathing</li>
-          </ul>
+            </ul>
+          </li>
+         
         </ul>
       </div>
     </div>
