@@ -24,7 +24,7 @@ const Header = () => {
             <li className="w-20">
               <Link
                 href="/writings"
-                className={`${pathname === '/writings' ? 'text-[#0000FF] underline' : ''}`}
+                className={`${pathname === '/writings' ? 'text-[#0000FF] ' : ''}`}
               >
                 Writings
               </Link>
@@ -32,7 +32,7 @@ const Header = () => {
             <li className="w-20">
               <Link
                 href="/work"
-                className={`${pathname === '/work' ? 'text-[#0000FF] underline' : ''}`}
+                className={`${pathname === '/work' ? 'text-[#0000FF] ' : ''}`}
               >
                 Work
               </Link>
@@ -40,7 +40,7 @@ const Header = () => {
             <li className="w-20">
               <Link
                 href="/media"
-                className={`${pathname === '/media' ? 'text-[#0000FF] underline' : ''}`}
+                className={`${pathname === '/media' ? 'text-[#0000FF] ' : ''}`}
               >
                 Media
               </Link>
