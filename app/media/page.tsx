@@ -67,6 +67,7 @@ const Media = () => {
               <li>Naval</li>
               <li>Philosophize This</li>
               <li>Origins</li>
+              <li>Theory of anything</li>
               <li>How to take over the world</li>
               <li>Eternalised</li>
               <li>Lifespan</li>
