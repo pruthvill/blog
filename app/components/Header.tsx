@@ -8,51 +8,48 @@ const Header = () => {
   const pathname = usePathname();
 
   return (
-    <div className="mx-auto mt-2 ">
-      <header className="mx-auto flex flex-col text-center">
-        <div className="mx-auto flex flex-col justify-center mb-2">
-          <h1 className=" font-bold mb-2" style={{ fontSize: '18px' }}>
-            <span>
-              <Link href="/" className="">
-                Pruthvil
+    <header className="mx-auto mt-2 flex flex-col items-center text-center w-fit">
+      <div className="flex flex-col items-center mb-2">
+        <h1 className="font-bold mb-2" style={{ fontSize: '18px' }}>
+          <span>
+            <Link href="/">Pruthvil</Link>
+            
+          </span>
+          
+        </h1>
+        <div className="w-full border-b border-gray-300 mb-2"></div>
+
+        <nav style={{ fontSize: '16px' }}>
+          <ul className="flex justify-center space-x-2 gap-8">
+            <li className="w-20">
+              <Link
+                href="/writings"
+                className={`${pathname === '/writings' ? 'text-[#0000FF] underline' : ''}`}
+              >
+                Writings
               </Link>
-            </span>
-          </h1>
-          <nav style={{ fontSize: '16px' }}>
-            <ul className="flex justify-center space-x-2 gap-2">
-              <span className="">|</span>
-              <li>
-                <Link
-                  href="/writings"
-                  className={`${pathname === '/writings' ? "" : ""}`}
-                >
-                  Writings
-                </Link>
-              </li>
-              <span className="">|</span>
-              <li>
-                <Link
-                  href="/work"
-                  className={`${pathname === '/work' ? "" : ""}`}
-                >
-                  Work
-                </Link>
-              </li>
-              <span className="">|</span>
-              <li>
-                <Link
-                  href="/media"
-                  className={`${pathname === '/media' ? "" : ""}`}
-                >
-                  Media
-                </Link>
-              </li>
-              <span className="">|</span>
-            </ul>
-          </nav>
-        </div>
-      </header>
-    </div>
+            </li>
+            <li className="w-20">
+              <Link
+                href="/work"
+                className={`${pathname === '/work' ? 'text-[#0000FF] underline' : ''}`}
+              >
+                Work
+              </Link>
+            </li>
+            <li className="w-20">
+              <Link
+                href="/media"
+                className={`${pathname === '/media' ? 'text-[#0000FF] underline' : ''}`}
+              >
+                Media
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div className="w-full border-b border-gray-300"></div>
+    </header>
   );
 };
 

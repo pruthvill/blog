@@ -22,7 +22,7 @@ const Writings = () => {
   return (
     <div className="pruthvil">
       <Header />
-      <div className="text-center  font-bold mb-2" style={{ fontSize: '16px' }}>Writings</div>
+      <div className="text-center  font-bold mb-2" style={{ fontSize: '16px' }}></div>
       <div className="flex flex-col max-w-[220px] mx-auto" style={{ fontSize: '14px' }}>
         <ul className="flex flex-col gap-4">
           {writingItems.map(({ title, href }, index) => (

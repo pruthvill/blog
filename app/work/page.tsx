@@ -5,7 +5,7 @@ const Work = () => {
   return (
     <div className="pruthvil">
       <Header />
-      <div className="text-center text-lg font-bold mb-2"  style={{ fontSize: '16px' }}>Work</div>
+      <div className="text-center text-lg font-bold mb-2"  style={{ fontSize: '16px' }}></div>
       <div className="flex flex-col max-w-[220px] mx-auto"  style={{ fontSize: '14px' }}>
         <ul className="flex flex-col gap-4">
           <li>
