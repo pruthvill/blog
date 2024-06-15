@@ -17,7 +17,7 @@ const Header = () => {
         </h1>
       </div>
 
-      <nav style={{ fontSize: "14px" }} className="flex flex-col items-center">
+      <nav style={{ fontSize: "14px" }} className="flex flex-col items-center font-semibold">
       <div className="w-full border-b border-gray-300 mb-2"></div>
 
         <ul className="flex justify-center space-x-2 gap-8">

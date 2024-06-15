@@ -81,7 +81,7 @@ const Work = () => {
                   rel="noopener noreferrer"
                   className="text-black hover:text-[#0000FF] transition-colors underline"
                 >
-                  Mark2
+                  Mark
                 </Link>
               </li>
               {/* <li><Link href="DeepDives\\.html">CourseMax</Link></li> */}

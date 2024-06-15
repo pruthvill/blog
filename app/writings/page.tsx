@@ -23,7 +23,7 @@ const Writings = () => {
   return (
     <div className="pruthvil">
       <Header />
-     
+
       <div className="flex flex-col max-w-[220px] mx-auto text-lg">
         <ul className="flex flex-col gap-4">
           {writingItems.map(({ title, href }, index) => (
@@ -35,6 +35,17 @@ const Writings = () => {
             </li>
           ))}
         </ul>
+
+        <div className="flex flex-col items-center mt-4">
+          <div className="w-full border-b border-gray-300"></div>
+          <div className="flex items-center justify-center mt-2">
+            <Link href="https://x.com/pruthvill" className="text-black hover:text-[#0000FF] transition-colors font-medium flex items-center">
+              <span className="mr-1">@pruthvill</span>
+            
+            </Link>
+          </div>
+          <div className="w-full border-b border-gray-300 mt-2 "></div>
+        </div>
       </div>
     </div>
   );
