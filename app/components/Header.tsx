@@ -10,14 +10,16 @@ const Header = () => {
   return (
     <header className="mx-auto mt-2 flex flex-col items-center text-center w-fit mb-4">
       <div className="flex flex-col items-center mb-2">
-        <h1 className="font-bold mb-2" style={{ fontSize: "16px" }}>
+        <h1 className="font-bold mb-1" style={{ fontSize: "16px" }}>
           <span>
             <Link href="/">Pruthvil</Link>
           </span>
         </h1>
-        <div className="w-full border-b border-gray-300 mb-2"></div>
+      </div>
 
-        <nav style={{ fontSize: "14px" }}>
+      <nav style={{ fontSize: "14px" }} className="flex flex-col items-center">
+      <div className="w-full border-b border-gray-300 mb-2"></div>
+
         <ul className="flex justify-center space-x-2 gap-8">
           <NavItem href="/writings" currentPath={pathname}>
             Writings
@@ -29,12 +31,12 @@ const Header = () => {
             Media
           </NavItem>
         </ul>
+        <div className="w-full border-b border-gray-300 mt-1"></div>
       </nav>
-      </div>
-      <div className="w-full border-b border-gray-300"></div>
     </header>
   );
 };
+
 interface NavItemProps {
   href: string;
   currentPath: string;
@@ -52,4 +54,5 @@ const NavItem: React.FC<NavItemProps> = ({ href, currentPath, children }) => {
     </li>
   );
 };
+
 export default Header;
