@@ -22,7 +22,7 @@ const Post: React.FC<PostProps> = ({ title, content }) => {
         </div>
 
         {/* Content */}
-        <ul className="flex flex-col w-full max-w-2xl mx-auto pl-5">
+        <ul className="flex flex-col w-full max-w-2xl mx-auto pl-6 pr-1">
           <li>{content}</li>
         </ul>
       </div>
