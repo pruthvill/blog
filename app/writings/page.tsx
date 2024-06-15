@@ -1,3 +1,4 @@
+// pages/writings.tsx
 import Header from "../components/Header";
 import Link from "next/link";
 
@@ -22,8 +23,8 @@ const Writings = () => {
   return (
     <div className="pruthvil">
       <Header />
-      <div className="text-center  font-bold mb-2" style={{ fontSize: '16px' }}></div>
-      <div className="flex flex-col max-w-[220px] mx-auto" style={{ fontSize: '14px' }}>
+     
+      <div className="flex flex-col max-w-[220px] mx-auto text-lg">
         <ul className="flex flex-col gap-4">
           {writingItems.map(({ title, href }, index) => (
             <li key={index} className="flex">
