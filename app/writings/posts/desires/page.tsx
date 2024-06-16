@@ -5,21 +5,23 @@ const DesiresPost = () => {
   const postData = {
     title: "Desires",
     content: `
-      TL;DR:
-      Your desires are not your own they are passed on to you from society and you dont question them.
-      Neither you try to find your own true desires.
-      As a result of this when you even act on the desires you do not feel fulfilled becuase the desires were not your own in the first place.
-      So Find your true desires.
+      
+    -not your own
+    -if you want to fail fail at the things you want to and choose your problems
+    -try to find your own desires
+    -explore a lot(inbuilt or found)
+    -
+     
 
-      Humans reproduce two ways ,biologically using genes and culturally using memes(darwininan memes).
-      In biological reproduction we dont have the choice of what genes we want.You can't choose your gender ,color of your skin and other things
+      Humans reproduce two ways ,biologically using genes and culturally using memes(darwininan).
+        In biological reproduction we dont have the choice of what genes we want.You can't choose your gender ,color of your skin and other things
       that are passed on through genes and genes can only be passed on from parent to offspring.Evolution happens very slowly.Humans have not a had a major change in genes for past 10000 years.
       We diverted from chimps around 6 million years ago and we still share our 98.8%  of DNA with them.
       Memes are passed on through culture and it can passed on from one individual to another.Memes can chnage drastically even in one generation and we have the choice to accept the memes or discard them.
       The first and primary source for the memes in our life is mostly famlily.As we grow older we acquire more sources of memes and they effect us directly or indirectly.
       Even though we have the choice to choose what memes to accept or discard most of us just go on with the memes that are passed on to us from the society.
 
-      We are born with a lot of desires and we are not able to change them.
+      As We grow up society's functioning are passed on through us sub-consciously.
 
       If you obeserve your day to day actions most if not all of your actions are the result of the memes from society.
       The World will ask you who you are and if you dont know the world will tell you.
