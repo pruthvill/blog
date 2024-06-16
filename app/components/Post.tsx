@@ -10,7 +10,7 @@ interface PostProps {
 
 const Post: React.FC<PostProps> = ({ title, content }) => {
   return (
-    <div className="pruthvil sm:p-6 md:p-8 lg:p-10">
+    <div className="pruthvil ">
       {/* Header component */}
       <Header />
 
