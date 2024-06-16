@@ -1,81 +1,77 @@
-// writings/posts/desires/page.tsx
 import Post from "@/app/components/Post";
+import Link from "next/link";
 
 const DesiresPost = () => {
   const postData = {
     title: "Desires",
-    content: `
-      
-    -not your own
-    -if you want to fail fail at the things you want to and choose your problems
-    -try to find your own desires
-    -explore a lot(inbuilt or found)
-    -chinese curse “May you get what you wish for”
+    content: (
+      <>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Humans reproduce two ways, biologically using genes and culturally
+          using memes (Darwinian). In biological reproduction, we don't have a choice
+           regarding what genes we inherit. Our gender, race, and other traits passed on through genes are predetermined. 
+           Genes can only be transmitted from parent to offspring. Evolution occurs very slowly.In fact,
+          Humans have not undergone a major genetic change in the past 10,000
+          years and despite diverging from chimpanzees around 6 million years ago,  we
+          still share 98.8% of our DNA with them.
+        </p>
+
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Memes, conversely, are disseminated through culture. Memes can
+          change drastically even within a single generation. As we mature, we
+          realize that we have the choice to accept or discard memes. As we accumulate
+          more life experience, we acquire additional sources of memes that
+          influence us directly or indirectly. Although we can choose which
+          memes to embrace or reject, most individuals subconsciously adopt the
+          memes passed down from society, thereby perpetuating its functioning.
+        </p>
+
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you observe your day-to-day actions, you'll likely find that most, 
+          if not all, stem from the memes propagated by society. As jung says,
+           "The world will ask who you are, and if you do not know, the world will tell you." 
+           When you lack intrinsic desires, society's desires often become yours.
+            The danger lies in adopting these external desires without question. 
+            If you fail to fulfill them, society may criticize you, and worse, you may berate yourself—not for neglecting your true aspirations. This cycle perpetuates a life driven by external validation rather than authentic self-realization.
+        </p>
+
      
 
-      Humans reproduce two ways ,biologically using genes and culturally using memes(darwininan).
-        In biological reproduction we dont have the choice of what genes we want.You can't choose your gender ,color of your skin and other things
-      that are passed on through genes and genes can only be passed on from parent to offspring.Evolution happens very slowly.Humans have not a had a major change in genes for past 10000 years.
-      We diverted from chimps around 6 million years ago and we still share our 98.8%  of DNA with them.
-      Memes are passed on through culture and it can passed on from one individual to another.Memes can chnage drastically even in one generation and we have the choice to accept the memes or discard them.
-      The first and primary source for the memes in our life is mostly famlily.As we grow older we acquire more sources of memes and they effect us directly or indirectly.
-      Even though we have the choice to choose what memes to accept or discard most of us just go on with the memes that are passed on to us from the society.
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mimetic desire refers to the notion that individuals do not
+          autonomously desire objects, goals, or ambitions; instead, we learn
+          what to desire by observing the desires of others. We desire things
+          because we see others desiring them, not due to the inherent value of
+          the objects themselves.
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The idea of something is often better than the actual thing itself,
+          and when you obtain it, the joy of acquisition will be much less than
+          expected and will fade quickly. Our wants reside in the future, yet
+          when we wish for them, we fail to comprehend the consequences of
+          attaining them.It's easy to forget that we are not the same as we were 5 years
+          ago; in fact, we are not even the same as a year ago. So how can you
+          yearn something in the future and assume that our future self will
+          have the same desires?
+        </p>
 
-      As We grow up society's functioning are passed on through us sub-consciously.
 
-      If you obeserve your day to day actions most if not all of your actions are the result of the memes from society.
-      The World will ask you who you are and if you dont know the world will tell you.
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;People think they will work hard in their 20s, accumulate wealth,
+          retire in their 30s, then pursue their passions, relocate to a calm
+          place, and simply relax for the remainder of their lives. However,
+          when the time comes, even if they have amassed enough money, they may
+          realize they no longer want to do that, perhaps because their desires
+          have evolved, or they have acquired new responsibilities, or their values and priorities have shifted.
+        </p>
 
-      If you dont have desires of your own the societies desires will become your desires.
-
-      How to find what you truly desire.
-      You cant want to hang out with dinosuars that sounds impossible but who knows.
-
-      People like to think they are talking about ideas but most times they are just talking abbout fashion.
-      the idea of something is always better than the thing   itself and when you get it the joy of getting it will be much less than you expected and will fade away in no time.
-      our wants are in the future & when we wish for them we dont understand  the consequences of getting it
-
-      Thinking for yourself.
-
-      Insight based and Iteration based.
-
-      Rene Girard's theory of Mimetic desire (born with no
-      preferences) is one of the most fascinating theories I have ever
-      come across. It suggests that most, if not all, of our desires
-      do not come from ourselves but from others and the situations we
-      are in.Mimetic desire refers to the idea that individuals do not 
-      autonomously desire objects, goals, or ambitions; instead, they learn what to desire by observing the desires of others. 
-
-      Over the past 1-1.5 years, I have seen a massive change in how I
-      view life and what I want from it because of that theory. I
-      remember when I was a child, all I wanted to do when I grew up
-      was buy all the DVDs of the cartoons that I used to like and
-      watch them for the rest of my life. I wanted to read all the
-      books I could find, and I would even finish most of them in one
-      sitting. I wanted to become a scientist and spend all my time
-      working with robots and researching about immortality. The
-      12-year-old me was so ambitious and optimistic. If he could see
-      me somehow, he would despise what I have become.
-
-      But I have realized that our desires do not stay the same over
-      time. I think it's easy to forget that we are not the same
-      people we were 5 years ago; we are not even the same people we
-      were a year ago. As we grow older and become more logical, the
-      world just starts becoming less magical. (Or maybe all of this
-      is just coping to console the 12-year-old me).
-
-      People think that they will work hard in their 20s, make a lot
-      of money, and then retire in their 30s and then pursue their
-      passions, move into a calm place, and just chill for the rest of
-      their lives. But when the time comes, even if they have made
-      enough money, they realize that they don't want to do it now,
-      maybe because they have grown past that desire and now they want
-      to pursue something else, or they have some kind of
-      responsibilities like family or their professional career.
-
-      So, do what you want to do now because then you won't want to.
-      It's okay to have wants that others don't understand.
-    `
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Therefore, do what you want to do now because you may not want to do
+          it later. And remember, it's ok to have desires that others
+          may not comprehend.
+        </p>
+      </>
+    ),
   };
 
   return <Post title={postData.title} content={postData.content} />;
