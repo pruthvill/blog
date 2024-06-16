@@ -10,7 +10,7 @@ const DesiresPost = () => {
     -if you want to fail fail at the things you want to and choose your problems
     -try to find your own desires
     -explore a lot(inbuilt or found)
-    -chinese curse may you get what you want
+    -chinese curse “May you get what you wish for”
      
 
       Humans reproduce two ways ,biologically using genes and culturally using memes(darwininan).
@@ -32,8 +32,9 @@ const DesiresPost = () => {
       You cant want to hang out with dinosuars that sounds impossible but who knows.
 
       People like to think they are talking about ideas but most times they are just talking abbout fashion.
+      the idea of something is always better than the thing   itself and when you get it the joy of getting it will be much less than you expected and will fade away in no time.
+      our wants are in the future & when we wish for them we dont understand  the consequences of getting it
 
-      You cant compete with someone who is having fun.
       Thinking for yourself.
 
       Insight based and Iteration based.
