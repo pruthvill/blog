@@ -1,5 +1,4 @@
 import Post from "@/app/components/Post";
-import Link from "next/link";
 
 const DesiresPost = () => {
   const postData = {
@@ -9,10 +8,10 @@ const DesiresPost = () => {
         <p>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Humans reproduce two ways, biologically using genes and culturally
           using memes (Darwinian). In biological reproduction, we don't have a choice
-           regarding what genes we inherit. Our gender, race, and other traits passed on through genes are predetermined. 
-           Genes can only be transmitted from parent to offspring. Evolution occurs very slowly.In fact,
+          regarding what genes we inherit. Our gender, race, and other traits passed on through genes are predetermined. 
+          Genes can only be transmitted from parent to offspring. Evolution occurs very slowly. In fact,
           Humans have not undergone a major genetic change in the past 10,000
-          years and despite diverging from chimpanzees around 6 million years ago,  we
+          years and despite diverging from chimpanzees around 6 million years ago, we
           still share 98.8% of our DNA with them.
         </p>
 
@@ -28,14 +27,12 @@ const DesiresPost = () => {
 
         <p>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you observe your day-to-day actions, you'll likely find that most, 
-          if not all, stem from the memes propagated by society. As jung says,
-           "The world will ask who you are, and if you do not know, the world will tell you." 
-           When you lack intrinsic desires, society's desires often become yours.
-            The danger lies in adopting these external desires without question. 
-            If you fail to fulfill them, society may criticize you, and worse, you may berate yourself—not for neglecting your true aspirations. This cycle perpetuates a life driven by external validation rather than authentic self-realization.
+          if not all, stem from the memes propagated by society. As Jung says,
+          "The world will ask who you are, and if you do not know, the world will tell you." 
+          When you lack intrinsic desires, society's desires often become yours.
+          The danger lies in adopting these external desires without question. 
+          If you fail to fulfill them, society may criticize you, and worse, you may berate yourself—not for neglecting your true aspirations. This cycle perpetuates a life driven by external validation rather than authentic self-realization.
         </p>
-
-     
 
         <p>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mimetic desire refers to the notion that individuals do not
@@ -44,17 +41,17 @@ const DesiresPost = () => {
           because we see others desiring them, not due to the inherent value of
           the objects themselves.
         </p>
+
         <p>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The idea of something is often better than the actual thing itself,
           and when you obtain it, the joy of acquisition will be much less than
           expected and will fade quickly. Our wants reside in the future, yet
           when we wish for them, we fail to comprehend the consequences of
-          attaining them.It's easy to forget that we are not the same as we were 5 years
+          attaining them. It's easy to forget that we are not the same as we were 5 years
           ago; in fact, we are not even the same as a year ago. So how can you
-          yearn something in the future and assume that our future self will
+          yearn for something in the future and assume that our future self will
           have the same desires?
         </p>
-
 
         <p>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;People think they will work hard in their 20s, accumulate wealth,
@@ -74,7 +71,7 @@ const DesiresPost = () => {
     ),
   };
 
-  return <Post title={postData.title} content={postData.content} />;
+  return <Post {...postData} />;
 };
 
 export default DesiresPost;
