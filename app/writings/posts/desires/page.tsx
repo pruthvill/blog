@@ -10,7 +10,7 @@ const DesiresPost = () => {
     -if you want to fail fail at the things you want to and choose your problems
     -try to find your own desires
     -explore a lot(inbuilt or found)
-    -
+    -chinese curse may you get what you want
      
 
       Humans reproduce two ways ,biologically using genes and culturally using memes(darwininan).
