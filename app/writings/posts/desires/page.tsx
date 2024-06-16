@@ -43,7 +43,8 @@ const DesiresPost = () => {
       preferences) is one of the most fascinating theories I have ever
       come across. It suggests that most, if not all, of our desires
       do not come from ourselves but from others and the situations we
-      are in.
+      are in.Mimetic desire refers to the idea that individuals do not 
+      autonomously desire objects, goals, or ambitions; instead, they learn what to desire by observing the desires of others. 
 
       Over the past 1-1.5 years, I have seen a massive change in how I
       view life and what I want from it because of that theory. I

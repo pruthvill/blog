@@ -19,22 +19,14 @@ const Post: React.FC<PostProps> = ({ title, content }) => {
         {/* Section title */}
         <div
           className="text-center text-lg font-black mb-2 mx-auto px-4"
-          style={{
-            maxWidth: `
-              calc(100vw - 2rem)
-              max-content: 48rem
-              @media (min-width: 640px) { max-width: 36rem }
-              @media (min-width: 768px) { max-width: 48rem }
-              @media (min-width: 1024px) { max-width: 60rem }
-            `,
-          }}
+       
         >
           {title}
         </div>
 
         {/* Content */}
         <ul
-          className="flex flex-col w-full mx-auto px-4 sm:px-6 md:px-8"
+          className="flex flex-col w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-10"
           style={{ maxWidth: "48rem" }}
         >
           <li>{content}</li>
