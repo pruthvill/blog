@@ -31,7 +31,7 @@ const DesiresPost = () => {
           "The world will ask who you are, and if you do not know, the world will tell you." 
           When you lack intrinsic desires, society's desires often become yours.
           The danger lies in adopting these external desires without question. 
-          If you fail to fulfill them, society may criticize you, and worse, you may berate yourself—not for neglecting your true aspirations. This cycle perpetuates a life driven by external validation rather than authentic self-realization.
+          If you fail to fulfill them, society may criticize you, and worse, you may berate yourself for neglecting your true aspirations. This cycle perpetuates a life driven by external validation rather than authentic self-realization.
         </p>
 
         <p>
