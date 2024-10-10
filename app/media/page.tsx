@@ -81,6 +81,7 @@ const Media = () => {
             <ul className="list-disc list-inside">
             <li>Decison Making</li>
             <li>Box Breathing</li>
+            <li>Temptation bundling</li>
             </ul>
           </li>
          
