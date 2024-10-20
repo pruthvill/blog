@@ -14,7 +14,6 @@ const Writings = () => {
     { title: "What are you optimizing for?", href: "/writings/posts/optimizing" },
     { title: "Questions I like to think about.", href: "/writings/posts/questions" },
     { title: "Get drowned in stories, experiences and people.", href: "/writings/posts/drowned" },
-    { title: "Experiments Ep-1: No electricity.", href: "/writings/posts/eep1" },
     { title: "Solitude, Reflection and losing yourself.", href: "/writings/posts/srl" },
     { title: "Don't play lost games.", href: "/writings/posts/games" },
   ];
