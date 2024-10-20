@@ -6,13 +6,9 @@ const BottomUpPost = () => {
     content: (
       <>
         <p>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Humans reproduce two ways, biologically using genes and culturally
-          using memes. In biological reproduction, we don't have a choice
-          regarding what genes we inherit. Our gender, race, and other traits passed on through genes are predetermined. 
-          Genes can only be transmitted from parent to offspring. Evolution occurs very slowly. In fact,
-          Humans have not undergone a major genetic change in the past 10,000
-          years and despite diverging from chimpanzees around 6 million years ago, we
-          still share 98.8% of our DNA with them.
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;what do you want to do right now ask 
+          yourself this question everyday rather than seeing a goal in the far
+          future and chasing it like wanting to become a pilot
         </p>
 
         <p>
