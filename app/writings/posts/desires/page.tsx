@@ -7,7 +7,7 @@ const DesiresPost = () => {
       <>
         <p>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Humans reproduce two ways, biologically using genes and culturally
-          using memes (Darwinian). In biological reproduction, we don't have a choice
+          using memes. In biological reproduction, we don't have a choice
           regarding what genes we inherit. Our gender, race, and other traits passed on through genes are predetermined. 
           Genes can only be transmitted from parent to offspring. Evolution occurs very slowly. In fact,
           Humans have not undergone a major genetic change in the past 10,000
