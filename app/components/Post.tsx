@@ -2,7 +2,6 @@
 import React from "react";
 import Header from "@/app/components/Header";
 
-// Define the type for the props
 interface PostProps {
   title: string;
   content: React.ReactNode;
@@ -10,16 +9,18 @@ interface PostProps {
 
 const Post: React.FC<PostProps> = ({ title, content }) => {
   return (
-    <div className="pruthvil flex flex-col items-center">
-      <Header />
-
-      <main className="w-full max-w-screen-sm px-4">
-        <div className="text-center text-lg font-black mb-2">
-          {title}
-        </div>
-
-        <div>
-          {content}
+    <div className="pruthvil min-h-screen ">
+      <div className="fixed top-0 left-0 right-0 bg-white z-50 ">
+        <Header />
+      </div>
+      <main className="w-full flex-grow pt-16 mt-8">
+        <div className="max-w-[640px] mx-auto px-4 ">
+          <div className="text-sm font-bold mb-4 text-center ">
+            {title}
+          </div>
+          <div className="text-sm mb-4">
+            {content}
+          </div>
         </div>
       </main>
     </div>
