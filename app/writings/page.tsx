@@ -4,7 +4,7 @@ import Link from "next/link";
 const Writings = () => {
   const writingItems = [
     { title: "Desires", href: "/writings/posts/desires" },
-    { title: "Thinking is easy, Information architecture is hard.", href: "/writings/posts/thinking" },
+    { title: "Thinking", href: "/writings/posts/thinking" },
     { title: "Building life bottom up.", href: "/writings/posts/bottom-up" },
     // { title: "Emotions are about emotions.", href: "/writings/posts/emotions" },
     // { title: "How to get FOMO?", href: "/writings/posts/fomo" },
