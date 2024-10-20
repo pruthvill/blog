@@ -1,4 +1,3 @@
-// pages/writings.tsx
 import Header from "../components/Header";
 import Link from "next/link";
 
@@ -21,32 +20,31 @@ const Writings = () => {
   ];
 
   return (
-    <div className="pruthvil">
+    <div className="pruthvil flex flex-col items-center min-h-screen">
       <Header />
-
-      <div className="flex flex-col max-w-[220px] mx-auto text-lg">
-        <ul className="flex flex-col gap-4">
-          {writingItems.map(({ title, href }, index) => (
-            <li key={index} className="flex">
-              <span className="text-black font-bold text-base mr-2 flex-shrink-0">&#8226;</span>
-              <Link href={href} className="text-black hover:text-[#0000FF] transition-colors">
-                {title}
+      <main className="w-full flex-grow">
+        <div className="max-w-[220px] mx-auto">
+          <ul className="flex flex-col gap-4 mb-4">
+            {writingItems.map(({ title, href }, index) => (
+              <li key={index} className="flex">
+                <span className="text-black font-bold text-sm mr-2 flex-shrink-0">&#8226;</span>
+                <Link href={href} className="text-black hover:text-[#0000FF] transition-colors text-sm">
+                  {title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <div className="flex flex-col items-center mt-4">
+            <div className="w-full border-b border-gray-300"></div>
+            <div className="flex items-center justify-center mt-2">
+              <Link href="https://x.com/pruthwill" className="text-black hover:text-[#0000FF] transition-colors font-medium text-sm flex items-center">
+                <span className="mr-1">@pruthwill</span>
               </Link>
-            </li>
-          ))}
-        </ul>
-
-        <div className="flex flex-col items-center mt-4">
-          <div className="w-full border-b border-gray-300"></div>
-          <div className="flex items-center justify-center mt-2">
-            <Link href="https://x.com/pruthvill" className="text-black hover:text-[#0000FF] transition-colors font-medium flex items-center">
-              <span className="mr-1">@pruthvill</span>
-            
-            </Link>
+            </div>
+            <div className="w-full border-b border-gray-300 mt-2"></div>
           </div>
-          <div className="w-full border-b border-gray-300 mt-2 "></div>
         </div>
-      </div>
+      </main>
     </div>
   );
 };

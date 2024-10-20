@@ -4,18 +4,21 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col items-center">
       <Header />
-      <div className=" text-center text-lg font-bold">
-        <Link
-          href="https://twitter.com/pruthvill"
-          target="_blank"
-          rel="noopener noreferrer"
-          className=" text-white hover:text-[#0000FF] transition-colors    font-bold "style={{ fontSize: '16px' }}
-        >
-          Worldsmith
-        </Link>
-      </div>
+      <main className="w-full max-w-screen-sm px-4">
+        <div className="text-center text-lg font-bold">
+          <Link
+            href="https://twitter.com/pruthvill"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-[#0000FF] transition-colors font-bold"
+            style={{ fontSize: '16px' }}
+          >
+            Worldsmith
+          </Link>
+        </div>
+      </main>
     </div>
   );
 }

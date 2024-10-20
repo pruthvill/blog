@@ -8,7 +8,7 @@ const Header = () => {
   const pathname = usePathname();
 
   return (
-    <header className="mx-auto mt-2 flex flex-col items-center text-center w-fit mb-4">
+    <header className="w-full mx-auto mt-2 flex flex-col items-center text-center mb-4">
       <div className="flex flex-col items-center mb-2">
         <h1 className="font-bold mb-1" style={{ fontSize: "16px" }}>
           <span>

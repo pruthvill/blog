@@ -10,25 +10,18 @@ interface PostProps {
 
 const Post: React.FC<PostProps> = ({ title, content }) => {
   return (
-    <div className="pruthvil">
-      {/* Header component */}
+    <div className="pruthvil flex flex-col items-center">
       <Header />
 
-      {/* Main content */}
-      <div className="flex flex-col items-center">
-        {/* Section title */}
-        <div className="text-center text-lg font-black mb-2 mx-auto px-4">
+      <main className="w-full max-w-screen-sm px-4">
+        <div className="text-center text-lg font-black mb-2">
           {title}
         </div>
 
-        {/* Content */}
-        <div
-          className="flex flex-col w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-10"
-          style={{ maxWidth: "48rem" }}
-        >
+        <div>
           {content}
         </div>
-      </div>
+      </main>
     </div>
   );
 };
