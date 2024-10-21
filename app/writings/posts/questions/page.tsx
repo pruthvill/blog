@@ -34,10 +34,8 @@ How is your physical reality affecting your mind?
 What could make today great?
 What should I let go of today?
 How am I wasting my time?
-What could I do today that is high leverage?
-What is the universe trying to teach you right now?
-What qualities irritate you in others?
-Are you happy with the way you treat yourself?
+What is the life trying to teach you right now?
+                Are you happy with the way you treat yourself?
 
               </p>
               <p className="mb-4 "> </p>
