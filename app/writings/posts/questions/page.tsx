@@ -26,7 +26,7 @@ const QuestionsPost = () => {
         <li>How am I wasting my time?</li>
         <li>What is life trying to teach you right now?</li>
         <li>Are you happy with the way you treat yourself?</li>
-      </ul>
+        </ul>
     ),
   };
   
