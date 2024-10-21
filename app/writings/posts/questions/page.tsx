@@ -1,21 +1,11 @@
-import Header from "@/app/components/Header";
-import Link from "next/link";
+import Post from "@/app/components/Post";
 
-const Media = () => {
-  return (
-    <div className="pruthvil  ">
-      <Header />
-
-      <div className="max-w-xl mx-auto sm:px-6">
-        <h2 className="text-center text-lg font-bold mb-2 ">
-         On Advices
-        </h2>
-
-        <div className="flex flex-col mx-auto  ">
-          <ul className="flex flex-col gap-4 ">
-            <li>
-              <p className="mb-4 "> 
-               Am I fooling myself? If yes, how?
+const QustionsPost = () => {
+  const postData = {
+    title: "Questions I like to think about.",
+    content: (
+      <>
+       Am I fooling myself? If yes, how?
 What am I not accepting?
 Do I really want what I want?
 If you were to find a box filled with everything you have ever lost in your life, what would you look for?
@@ -35,22 +25,11 @@ What could make today great?
 What should I let go of today?
 How am I wasting my time?
 What is the life trying to teach you right now?
-                Are you happy with the way you treat yourself?
+                Are you happy with the way you treat yourself?      </>
+    ),
+  };
 
-              </p>
-              <p className="mb-4 "> </p>
-
-              
-
-              <p className="mb-4 "> </p>
-              <p className="mb-4 "> </p>
-              <p className="mb-4 "> </p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  );
+  return <Post {...postData} />;
 };
 
-export default Media;
+export default QustionsPost;
