@@ -15,15 +15,30 @@ const Media = () => {
           <ul className="flex flex-col gap-4 ">
             <li>
               <p className="mb-4 "> 
-Am I fooling myself if yes where 
-What am I not accepting
-Why am I not bold enough
-Do I really want what I want
-If you were to find a box filled with everything you have ever lost in your life, what are the things you would look for?
-What are the experiences you can have only at this age?
-If you were to enter a room filled with every person you have ever known, who would be the first person you look for?
-What would you do if you knew you couldn’t fail?
-What characteristics do you wish you had?
+               Am I fooling myself? If yes, how?
+What am I not accepting?
+Do I really want what I want?
+If you were to find a box filled with everything you have ever lost in your life, what would you look for?
+What experiences can you have only at this age?
+If you were to enter a room filled with every person you have ever known, who would be the first person you would look for? Why?
+What would you do if you knew you couldn't fail?
+What characteristics do you wish you had? How can you get those characteristics?
+What are you afraid of? Why?
+What advice would you give to someone in your situation?
+What important truth do very few people agree with you on?
+If you have a 10-year plan to get somewhere, why can't you do it in 6 months?
+What does your dream day look like?
+If someone could only see my actions and not hear my words, what would they say are my priorities?
+What situations do I want to be in?
+How is your physical reality affecting your mind?
+What could make today great?
+What should I let go of today?
+How am I wasting my time?
+What could I do today that is high leverage?
+What is the universe trying to teach you right now?
+What qualities irritate you in others?
+Are you happy with the way you treat yourself?
+
               </p>
               <p className="mb-4 "> </p>
 
