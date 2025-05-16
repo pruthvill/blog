@@ -1,6 +1,6 @@
 import Post from "@/app/components/Post";
 
-const DesiresPost = () => {
+const writing = () => {
   const postData = {
     title: "Desires",
     content: (
@@ -74,4 +74,4 @@ const DesiresPost = () => {
   return <Post {...postData} />;
 };
 
-export default DesiresPost;
+export default writing;

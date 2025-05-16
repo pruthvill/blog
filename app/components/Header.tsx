@@ -24,11 +24,11 @@ const Header = () => {
             <NavItem href="/writings" currentPath={pathname}>
               Writings
             </NavItem>
-            <NavItem href="/work" currentPath={pathname}>
+            {/* <NavItem href="/work" currentPath={pathname}>
               Work
-            </NavItem>
-            <NavItem href="/media" currentPath={pathname}>
-              Media
+            </NavItem> */}
+            <NavItem href="/collections" currentPath={pathname}>
+            Collections
             </NavItem>
           </ul>
           <div className="w-full border-b border-gray-300 mt-1 "></div>

@@ -6,7 +6,7 @@ const Media = () => {
     <div className="pruthvil flex flex-col items-center min-h-screen">
       <Header />
       <main className="w-full flex-grow mt-24">
-        <div className="max-w-[220px] mx-auto">
+        <div className="max-w-[180px] mx-auto">
           <ul className="flex flex-col gap-4">
             <li>
               <h3 className="text-sm font-bold mb-2">Youtube</h3>
@@ -53,7 +53,7 @@ const Media = () => {
                 </li>
               </ul>
             </li>
-            <li>
+            {/* <li>
               <h3 className="text-sm font-bold mb-2">Podcasts</h3>
               <ul className="list-disc list-inside text-sm">
                 {[
@@ -77,15 +77,8 @@ const Media = () => {
                   <li key={index}>{podcast}</li>
                 ))}
               </ul>
-            </li>
-            <li>
-              <h3 className="text-sm font-bold mb-2">Performance Enhancement</h3>
-              <ul className="list-disc list-inside text-sm">
-                <li>Decision Making</li>
-                <li>Box Breathing</li>
-                <li>Temptation bundling</li>
-              </ul>
-            </li>
+            </li> */}
+            
           </ul>
         </div>
       </main>

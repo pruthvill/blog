@@ -21,7 +21,7 @@ const Writings = () => {
     <div className="pruthvil flex flex-col items-center min-h-screen">
       <Header />
       <main className="w-full flex-grow mt-24">
-        <div className="max-w-[220px] mx-auto">
+        <div className="max-w-[180px] mx-auto">
           <ul className="flex flex-col gap-4 mb-4">
             {writingItems.map(({ title, href }, index) => (
               <li key={index} className="flex">
